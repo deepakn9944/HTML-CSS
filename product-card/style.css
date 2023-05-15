@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Lato:wght@400;700&family=Montserrat:wght@300;400;800&family=Orbitron:wght@500&family=Work+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Lato:wght@400;700&family=Montserrat:wght@300;400;500;700;800&family=Orbitron:wght@500&family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper{
+    background-color:#E6E3D3;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 650px;
+    display: flex;
+    top:25%;
+    left: 30%;
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+#mug{
+    width: 300px;
+    height: 330px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+ }
+ h1, h3, h2, p{
+    margin: 10px 0;
+ }
+
+ h3{
+    color: grey;
+    letter-spacing: 4px;
+    font-size: 1rem;
+ }
+
+ h1{
+    width: 200px;
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+ }
+
+ .price{
+    color:green;
+    font-size: 1.8rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+ }
+
+ span{
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 500;
+ }
+ 
+ p{
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: grey;
+ }
+
+ button{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ /* .desc{
+    
+    width: 300px;
+    height: 300px
+
+ } */
+

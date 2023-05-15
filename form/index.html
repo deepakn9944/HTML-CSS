@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="prompt('submit')">
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="arrival-date">Arrival Date</label>
+            <input type="date" id="arrival-date" name="arrival-date" required>
+            <br>
+            <br>
+            <label for="night">Night</label>
+            <input type="number" id="night" name="night" required>
+            <br>
+            <br>
+            <label for="adult">Adults</label>
+             <select name="adult" id="adult">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+             </select>
+            <br>
+            <br>
+            <label for="children">Children</label>
+            <select name="children" id="children">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+             </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Room Type:</label>
+            <input type="radio" name="r-type" id="s-type">
+            <label for="s-type">Standard</label>
+            <input type="radio" name="r-type" id="su-type" value="Standard">
+            <label for="su-type">Suite</label>
+            <input type="radio" name="r-type" id="b-type" value="Standard">
+            <label for="b-type">Business</label>
+            <br>
+            <br>
+            <label>Bed Type:</label>
+            <input type="radio" name="b-type" id="k-type">
+            <label for="k-type">King</label>
+            <input type="radio" name="b-type" id="dd-type" value="Standard">
+            <label for="dd-type">Double Double</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br>
+            <br>
+            <p><label for="address">Address</label></p>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit"  value="submit">
+        <input type="reset"  value="reset">
+    </form>
+</body>
+</html>

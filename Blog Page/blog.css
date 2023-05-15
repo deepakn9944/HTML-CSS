@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    position: relative;
+    left: 12%;
+    width: 75%;
+    height: 100vh;
+}
+.container1{
+    margin: 2%;
+    padding: 0 11%;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+img{
+    width: 3%;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3%;
+    width: 75%;
+    position: relative;
+    left:12%;
+}
+
+.item1{
+   padding:0 1%;
+}
+
+.list{
+    padding: 0 5%;
+}
+
+.text{
+    padding: 2% 0;
+}
+
+.about{
+    background-color: aquamarine;
+    padding: 2%;
+}
+
+.archives{
+    margin: 5% 0;
+    width: 40%;
+}
+
+.elsewhere{
+    width: 40%;
+}

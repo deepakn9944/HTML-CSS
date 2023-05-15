@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    position: relative;
+    left: 12%;
+    width: 75%;
+    height: 100vh;
+}
+.container1{
+    margin: 2%;
+    padding: 0 11%;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+img{
+    width: 3%;
+}
+
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+}
+
+.box{
+    height: 100%;
+    padding: 4%;
+    border: 1px solid black;
+    width: 75%;
+}
+
+.bBox{
+    justify-self: end;
+    align-self: center;
+}
+
+.gBox{
+    justify-self: start;
+    align-self: center;
+}
+
+.green{
+    color: green;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.blue{
+    color: blue;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.date{
+    color: grey;
+    font-size: 0.8rem;
+    padding: 1% 0;
+}
+
+.text{
+    padding-bottom: 9%;
+    height: 50%;
+}
