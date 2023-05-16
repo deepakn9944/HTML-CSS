@@ -11,6 +11,6 @@ Image Gallery url    :- https://gallery-demo.netlify.app/
 
 Product-card url     :- https://card-item.netlify.app/
 
-Blog Page url        👎 https://blogpage-f1f073.netlify.app/
+Blog Page url        :- https://blogpage-f1f073.netlify.app/
 
 Basic form           :- https://basic-form-e27e34.netlify.app/
